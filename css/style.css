@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background: transparent;
+    padding: auto;
+}
+
+.options {
+    float: right;
+    margin-right: auto;
+    padding: 0% 2% 0% 0%;
+    color: black;
+}
+
+
+a:link {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+a:visited {
+    color:#000;
+}
+
+
+a:hover {
+    background: #E3B261;
+    color: #FFF;
+  }
+
+
+.navbar {
+    box-shadow: 10px 5px 5px grey;
+    padding: auto;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #FFF;
+    display: fixed;
+}
+ 
+
+.title {
+    display: inline-block;
+    margin-left: 50px;
+    width: 250px;
+}
+
+footer {
+    bottom: 0%;
+    position: relative;
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    background-color: darkslategray;
+    padding: 30px 20px 0px 20px;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+ }
+
+ .recipe {
+    border: 2px dashed  #ffffff;
+ }
+
+
+ #homepage-ftr {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
