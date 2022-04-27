@@ -2,7 +2,7 @@
     max-width: 500px;
     margin: auto;
     margin-top: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     background: transparent;
     padding: auto;
 }
@@ -13,6 +13,33 @@
     margin-right: auto;
     padding: 0% 2% 0% 0%;
     color: black;
+    font-size: 18px;
+}
+
+
+#loginform {
+    display: inline-flex;
+}
+
+
+.login {
+    background-color: #E3B261;
+    border-radius: 9px 9px 9px 9px;
+    border-color: transparent;
+    padding: 5px 20px 5px 20px;
+    margin-top: -6px;
+    margin-left: 70px;
+    box-shadow: 3px 3px 2px #b38946;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.login:hover {
+    background-color: #f0d5ab;
+    cursor: pointer;
 }
 
 
@@ -21,26 +48,69 @@ a.homepage-lnk:hover {
 }
 
 
-a:link {
+.normalbtn:link {
     color: #000;
     font-weight: 700;
     text-decoration: none;
     border-radius: 5px 5px 5px 5px;
-    padding: 2px;
+    padding: 4px;
 }
 
 
 .menuitem {
     list-style-type: none;
+    display: inline-flex;
+    margin-top: 36px;
+    gap: 70px;
 }
 
 
-a:visited {
+
+@media screen and (max-width: 850px) {
+    .menuitem, .login {
+        gap: 30px;
+        display: inline-flex;
+        margin-bottom: 34px;
+    }
+  }
+
+
+  @media screen and (max-width: 850px) {
+        .login {
+        margin-left: 30px;
+    }
+  }
+
+
+  @media screen and (max-width: 850px) {
+    .title {
+        position: absolute;
+        visibility: hidden;
+    }
+  }
+
+
+  @media screen and (min-width: 850px) {
+    .titlesml {
+        visibility: hidden;
+    }
+  }
+
+
+.titlesml {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+
+.normalbtn:visited {
     color:#000;
 }
 
 
-a:hover {
+.normalbtn:hover {
     background: #E3B261;
     color: #FFF;
     font-weight: 0;
@@ -49,7 +119,7 @@ a:hover {
 
 .navbar {
     box-shadow: 10px 5px 5px grey;
-    padding: auto;
+    padding: 0px 50px 0px 50px;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -119,7 +189,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
         helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     color: #444;
-    background-color: #e1faf1;
+    background-color: #eefdf8;
     position: relative;
 }
 
