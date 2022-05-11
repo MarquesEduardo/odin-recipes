@@ -10,15 +10,18 @@
 
 .options {
     float: right;
-    margin-right: auto;
-    padding: 0% 2% 0% 0%;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
     color: black;
     font-size: 18px;
+    margin: 18px;    
 }
 
 
 #loginform {
-    display: inline-block;
+    margin-top: 13px;
+    margin-left: 20px;
 }
 
 
@@ -27,13 +30,11 @@
     border-radius: 9px 9px 9px 9px;
     border-color: transparent;
     padding: 5px 20px 5px 20px;
-    margin-top: -6px;
-    margin-left: 70px;
     box-shadow: 3px 3px 2px #b38946;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    font-family: arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
+    margin-left: 10px;
 }
 
 
@@ -57,32 +58,22 @@ a.homepage-lnk:hover {
 }
 
 
-.menuitem {
+#menuitem {
     list-style-type: none;
-    display: inline-flex;
-    margin-top: 36px;
-    gap: 70px;
+    display: inherit;
+    flex-direction: row;
+    gap: 30px;
 }
 
 
-
-@media screen and (max-width: 850px) {
-    .menuitem, .login {
-        gap: 30px;
-        display: inline-flex;
-        margin-bottom: 34px;
-    }
-  }
-
-
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 700px) {
         .login {
         margin-left: 30px;
     }
   }
 
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 700px) {
     .title {
         position: absolute;
         visibility: hidden;
@@ -90,7 +81,7 @@ a.homepage-lnk:hover {
   }
 
 
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 700px) {
     .titlesml {
         visibility: hidden;
     }
@@ -131,7 +122,7 @@ a.homepage-lnk:hover {
 .title {
     display: inline-block;
     margin-left: 50px;
-    width: 250px;
+    width: 240px;
     margin-top: 13px;
 }
 
